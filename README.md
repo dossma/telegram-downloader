@@ -29,7 +29,7 @@ pip install telethon
 
 Author: Jonas Dossmann
 
-Distributed under the GPL-3.0 license.
+Distributed under the AGPL-3.0 license.
 
 [https://github.com/dossma/](https://github.com/dossma/)
 
