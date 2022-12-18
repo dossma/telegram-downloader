@@ -68,6 +68,7 @@ for msg in msgs:
         print ("msg:\n", filename, "\nkonnte nicht heruntergeladen werden")
         errlist.append(filename)
 
+client.disconnect()
 print("Einträge runterladen abgeschlossen")
 print ("Nicht heruntergeladene Dateien:")
 for x in zip(errlist):
