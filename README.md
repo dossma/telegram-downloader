@@ -3,7 +3,7 @@ Downloads all content from a Telegram channel.
 
 ## Motivation 
 When you know a channel which continously shares content of interest, you may want to store them on your computer. 
-It is also useful as the channel (or the app itself) may shut down at some point. 
+It is also useful as the channel, or the app itself, may shut down at some point. 
 
 ## Usage
 The program is targeted for channels which provide media such as documents, audio files, videos or pictures.
