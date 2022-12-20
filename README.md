@@ -10,9 +10,8 @@ The program is targeted for channels which provide media such as documents, audi
 In this design, it is rather not suitable for plain text messages.
 
 ## Procedure
-To use this program, it is beforehand required to have an API ID and an API hash which you can get from https://core.telegram.org/api/obtaining_api_id#obtaining-api-id. 
+To use this program, it is beforehand required to have an API ID and an API hash which you can get from https://core.telegram.org/api/obtaining_api_id#obtaining-api-id. After that:
 
-Then:
 1. Set the folder where you want the files to be downloaded.
 2. Paste your API ID and API hash in the designated fields.
 3. Type in the channel name under the variable `channel`. Pasting the full link such as https://t.me/channelname works too.
