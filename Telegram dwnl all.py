@@ -1,3 +1,7 @@
+'''
+Notice:
+This program uses the Telegram API and is part of the Telegram ecosystem.
+'''
 from telethon import TelegramClient, events, sync
 import os.path
 
