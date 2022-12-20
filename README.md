@@ -1,5 +1,5 @@
 # telegram-downloader
-Downloads all content from a Telegram channel.
+Download all content from a Telegram channel.
 
 ## Motivation 
 When you know a channel which continously shares content of interest, you may want to store them on your computer. 
