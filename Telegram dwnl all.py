@@ -23,7 +23,7 @@ errlist = []  # Nicht heruntergeladene message-Namen
 counter = 0  # Zähler wieviele Nachrichten übrig sind
 
 for msg in msgs:
-    if not msg.file:  # Das letzte Element der msgs-Liste hat ist wohl leer
+    if not msg.file:  
         counter += 1
         print(len(msgs) - counter, " übrig", "\n")
         continue
