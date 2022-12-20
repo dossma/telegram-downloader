@@ -5,19 +5,16 @@ import os.path
 folder = r"C:\path\to\your\folder"
 channel = "DieStahlfeder"  # pasting the full link works too: https://t.me/DieStahlfeder
 limit = 2  # Argument limit begrenzt die Zahl der Downloads, kann "None" sein
-
 # Get API ID and API hash from https://core.telegram.org/api/obtaining_api_id#obtaining-api-id
 api_id = 1234567  # These example values won't work. You must get your own api_id
 api_hash = 'paste-your-api-hash-here'
 
+# Start
 client = TelegramClient('mySession', api_id, api_hash)
 client.start()
-print("Client gestartet")
-
-print("Einträge einholen")
+print("Client gestartet \n Einträge einholen")
 msgs = client.get_messages(channel, limit=limit)
 print(len(msgs), "Einträge vorhanden")
-
 os.chdir(folder)  # Arbeitsverzeichnis zum Zielordner ändern
 errlist = []  # Nicht heruntergeladene message-Namen
 counter = 0  # Zähler wieviele Nachrichten übrig sind
