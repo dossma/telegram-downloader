@@ -5,7 +5,7 @@ This program uses the Telegram API and is part of the Telegram ecosystem.
 from telethon import TelegramClient, events, sync
 import os.path
 
-# Parameter:
+# Input Parameter:
 folder = r"C:\path\to\your\folder"
 channel = r"DieStahlfeder"  # pasting the full link works too: https://t.me/DieStahlfeder
 limit = None  # Set a number to limit the downloads or None for downloading all
@@ -13,7 +13,7 @@ limit = None  # Set a number to limit the downloads or None for downloading all
 api_id = 1234567  # These example values won't work. You must get your own api_id
 api_hash = 'paste-your-api-hash-here'
 
-# Start
+# Start of Program
 client = TelegramClient('mySession', api_id, api_hash)
 client.start()
 print("Client startet, getting entries")
@@ -27,7 +27,7 @@ for msg in msgs:
     if not msg.file: 
         counter += 1
         continue
-    else:  # Prüfen, ob die Datei schon heruntergeladen wurde (im Verzeichnis vorhanden ist)
+    else:  # Prüfen, ob die Datei schon heruntergeladen wurde, also im Verzeichnis vorhanden ist
         creatime = msg.date.date().isoformat()  # Datumsformat: yyyy-mm-dd
         if msg.file.name:
             filename = creatime + " " + msg.file.name
