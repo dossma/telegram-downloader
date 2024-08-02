@@ -5,7 +5,7 @@ This program uses the Telegram API and is part of the Telegram ecosystem.
 from telethon import TelegramClient, events, sync
 import os.path
 
-# Input Parameter:
+# Input parameter:
 folder = r"C:\path\to\your\folder"
 channel = r"DieStahlfeder"  # pasting the full link works too: https://t.me/DieStahlfeder
 limit = None  # Set a number to limit the downloads or None for downloading all
