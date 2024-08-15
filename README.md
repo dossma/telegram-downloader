@@ -16,7 +16,8 @@ To use this program, it is beforehand required to have an API ID and an API hash
 2. Paste your API ID and API hash in the designated fields.
 3. Type in the channel name under the variable `channel`. Pasting the full link such as https://t.me/channelname works too.
 4. Set the value for `limit` which indicates how many files you want to download. It downloads in order from the most recent one. Set `None` if you want to get all.
-
+5. After starting the program, you may be prompted to enter your telephone number. Enter it with international format such as +49123456789 . Telegram sends you then a code which you then must enter too.
+    
 The program downloads all but checks if media is already present in the folder (it may have been downloaded before). If it is present, it is skipped.
 
 ## Development setup
