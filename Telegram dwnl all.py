@@ -12,6 +12,7 @@ limit = None  # Set a number to limit the downloads or None for downloading all
 # Get API ID and API hash from https://core.telegram.org/api/obtaining_api_id#obtaining-api-id
 api_id = 1234567  # These example values won't work. You must get your own api_id
 api_hash = 'paste-your-api-hash-here'
+# You're done now. Execute the program.
 
 # Start of Program
 client = TelegramClient('mySession', api_id, api_hash)
