@@ -78,7 +78,7 @@ print("F I N I S H E D")
 if len(errlist) < 1:
     print ("All files could be downloaded")
 else:
-    print ("Files which were not downloaded:")
+    print ("Files which could not be downloaded:")
     for x in zip(errlist):
         print(x)
 
