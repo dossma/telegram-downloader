@@ -54,7 +54,7 @@ for msg in msgs:
         if file_exists:
             print("Skipping", filename)
             counter += 1
-            print(len(msgs) - counter, " übrig", "\n")
+            print(len(msgs) - counter, " left", "\n")
             errlist.append(filename)
             continue  # Wenn Datei schon vorhanden, überspringen
 
